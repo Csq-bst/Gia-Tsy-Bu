@@ -1,36 +1,28 @@
-<svg width="600" height="250" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
   <style>
- 
-    .system-error { 
-      fill: #57606a; 
-      font-family: -apple-system, system-ui, sans-serif; 
-      font-size: 13px; 
-    }
-    
 
-    .meta { 
-      fill: transparent; 
-      font-family: 'STKaiti', 'KaiTi', serif; 
-      font-size: 16px;
-    }
+    .sys-label { fill: #57606a; font-family: sans-serif; font-size: 13px; }
     
+ 
+    .wind-data { fill: none; font-family: serif; font-size: 16px; }
+
     @media (prefers-color-scheme: dark) {
-      .system-error { fill: transparent; }
-      .secret-poem { fill: #3fb950; } /* 极客绿 */
-      .highlight { font-weight: bold; font-size: 18px; }
+      .sys-label { fill: none; }
+      .wind-data { fill: #3fb950; }
+      .bold { font-weight: bold; font-size: 18px; }
     }
   </style>
 
-  <text x="30" y="40" class="system-error">Empty repository file or 0 bytes asset.</text>
-  <text x="30" y="65" class="system-error">Last updated: 2026-02-10 (No content detected)</text>
+  <text x="30" y="40" class="sys-label">status: empty (0 bytes)</text>
+  <text x="30" y="65" class="sys-label">system_node: null</text>
 
-  <text x="30" y="45" class="meta highlight">在其（桃）的村庄，她的车站。</text>
+  <text x="30" y="45" class="wind-data bold">在她的村庄，她的车站。</text>
   
-  <text x="30" y="80" class="meta">风吹</text>
-  <text x="30" y="105" class="meta">风吹、风拂、风吹、风拂</text>
-  <text x="30" y="130" class="meta">风吹、风拂、风吹</text>
+  <text x="30" y="80" class="wind-data">风吹</text>
+  <text x="30" y="105" class="wind-data">风吹、风拂、风吹、风拂</text>
+  <text x="30" y="130" class="wind-data">风吹、风拂、风吹</text>
   
-  <text x="30" y="170" class="secret-poem highlight">呼喊她的名字。</text>
-  <text x="30" y="195" class="secret-poem">以X-为头，Station和Telecode。</text>
-  <text x="30" y="220" class="secret-poem" style="font-size: 12px; opacity: 0.8;">去邮寄它 triggers/webhook/VhLEB_DgOkZSAVUx_xew1V0U</text>
+  <text x="30" y="170" class="wind-data bold">呼喊她的名字。</text>
+  <text x="30" y="195" class="wind-data">以X-为头，Station和Telecode。</text>
+  <text x="30" y="220" class="wind-data" style="font-size: 12px; opacity: 0.8;">去邮寄它</text>
 </svg>
